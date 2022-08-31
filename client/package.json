@@ -1,5 +1,5 @@
 {
-  "name": "mern-stack-client",
+  "name": "client",
   "version": "0.1.0",
   "private": true,
   "proxy": "https://memories-project-part4.herokuapp.com/",
@@ -25,7 +25,7 @@
     "redux-thunk": "^2.3.0"
   },
   "scripts": {
-    "start": "react-scripts --openssl-legacy-provider start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
