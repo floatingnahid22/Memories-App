@@ -14,12 +14,8 @@ app.use(cors());
 app.use("/posts", postRoutes);
 app.use("/user", userRouter);
 
-app.get("/", (req, res) => {
-  res.send("App is Running");
-});
-
 const CONNECTION_URL =
-  "mongodb+srv://nahid22:318zXVnGPiuTAqJt@cluster0.u92abk9.mongodb.net/?retryWrites=true&w=majority@cluster0.u92abk9.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb+srv://nahid22:QjLyZjz8lGBnNpMC@cluster0.u92abk9.mongodb.net/?retryWrites=true&w=majority";
 const PORT = process.env.PORT || 5000;
 
 mongoose
